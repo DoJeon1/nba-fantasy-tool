@@ -1,1 +1,2 @@
-Web scraper tool used to gather job information about software developer jobs available in Alberta, Canada
+Web scraper tool <br/>
+Extracting data from *INDEED* to list software developer jobs in Alberta, Canada
