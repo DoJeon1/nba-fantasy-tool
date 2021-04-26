@@ -27,3 +27,5 @@ Printing to the command line
     print(location.text.strip())
     print()
  """
+
+ jobFile.close()
