@@ -8,7 +8,6 @@ html = BeautifulSoup(page.content, 'html.parser')
 results = html.find(id='resultsCol')
 jobPostings = results.find_all(class_='jobsearch-SerpJobCard')
 
-#jobFile = open('job-data.txt', 'w')
 import csv 
 with open('job-data.csv', 'w', newline='') as file:
     jobFile = csv.writer(file)
@@ -18,15 +17,9 @@ with open('job-data.csv', 'w', newline='') as file:
         company = posting.find('span', class_='company')
         location = posting.find(class_='location')
         
-        jobFile.writerow(title.text.strip())
-        jobFile.writerow(company.text.strip())
-        jobFile.writerow(location.text.strip())
-        jobFile.writerow('\n')
+        jobFile.writerow([title.text.strip()])
+        jobFile.writerow([company.text.strip()])
+        jobFile.writerow([location.text.strip()])
+        jobFile.writerow('')
 
-        """
-        Writing to a text file
-        jobFile.write(title.text.strip() + "\n")
-        jobFile.write(company.text.strip() + "\n")
-        jobFile.write(location.text.strip() + "\n")
-        jobFile.write("\n")
-        """
+
