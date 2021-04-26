@@ -19,13 +19,12 @@ for posting in jobPostings:
     jobFile.write(company.text.strip() + "\n")
     jobFile.write(location.text.strip() + "\n")
     jobFile.write("\n")
-
-"""
-Printing to the command line 
+    """
+    Printing to the command line ...
     print(title.text.strip())
     print(company.text.strip())
     print(location.text.strip())
     print()
- """
+    """
 
- jobFile.close()
+jobFile.close()
