@@ -1,2 +1,2 @@
 Web scraper tool <br/>
-Extracting data from *INDEED* to list software developer jobs in Alberta, Canada
+Currently extracts data from *INDEED.com* to list software developer jobs in Canada
