@@ -27,7 +27,7 @@ def getData():
             jobFile.writerow('')
 
 
-schedule.every().day.at("04:00").do(getData)
+schedule.every().day.at("16:00").do(getData)
 
 while True:
     schedule.run_pending()
