@@ -26,7 +26,6 @@ def getData():
             jobFile.writerow('')
 
 schedule.every().day.at("04:00").do(getData)
-schedule.every(10).seconds.do(getData)
 schedule.run_pending()
 
 
