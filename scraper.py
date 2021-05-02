@@ -26,7 +26,10 @@ def getData():
             jobFile.writerow([location.text.strip()])
             jobFile.writerow('')
 
-schedule.every().day.at("23:53").do(getData)
-schedule.run_pending()
+
+schedule.every().day.at("04:00").do(getData)
+
+while True:
+    schedule.run_pending()
 
 
