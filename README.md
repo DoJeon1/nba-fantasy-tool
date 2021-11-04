@@ -1,2 +1,1 @@
-Web scraper tool <br/>
-Currently extracts data from *INDEED.com* to list software developer jobs in Canada
+NBA Fantasy Basketball Tool for H2H matchup planning based on schedule
