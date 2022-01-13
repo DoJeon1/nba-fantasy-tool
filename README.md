@@ -1,6 +1,5 @@
 NBA Fantasy Basketball Tool
 
-- H2H matchup planning based on schedule
-- Use Yahoo! Fantasy API and theScore for scheduling 
-- Rankings of NBA players based on points and category scoring systems
+- Compare rostered and available players to determine optimal lineup and pickups for injury changes
+- Pickups to best suit team needs based on 9-cat team build
 
